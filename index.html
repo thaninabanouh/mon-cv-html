@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon CV HTML</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-    <link
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Mon CV HTML</title>
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+ 
+     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicons/apple-touch-icon.png"
-    />
-    <link
+      href="/favicons/apple-touch-icon.png"  />
+  
+     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/favicons/favicon-32x32.png"
-    />
-    <link
+      href="/favicons/favicon-32x32.png" />
+   
+     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link
+      href="/favicons/favicon-16x16.png" />
+   
+     <link rel="manifest" href="/site.webmanifest" />
+     <link
       rel="mask-icon"
       href="/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <body>
+      color="#5bbad5"/> 
+ </head>
         <style>
           * {
             margin: 0;
@@ -57,13 +56,13 @@
             min-height: 1000px;
             background: #fff;
             margin: 50px;
-            box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+            box-shadow: 0 35px 55px rgb(77, 8, 8);
           }
           .top {
             position: relative;
             width: 100%;
             height: 400px;
-            background: linear-gradient(45deg, #301313, #FF5757);
+            background: linear-gradient(45deg, #fff8f6, #F7DED7);
             padding: 50px;
             margin-inline-end:auto ;
           }
@@ -74,7 +73,7 @@
           }
           h2 {
             font-size: 3em;
-            color: #fff;
+            color: #DA613A;
             text-transform: uppercase;
             letter-spacing: 0.1em;
           }
@@ -100,7 +99,7 @@
             height: auto;
           }
           .group p {
-            color: #fff;
+            color: #DA613A;
             font-size: 1.05em;
           }
           .bottom {
@@ -117,8 +116,8 @@
             font-size: 1.1em;
             text-transform: uppercase;
             letter-spacing: 0.25em;
-            color: #fff;
-            background: #6e4126;
+            color: #DA613A;
+            background: #F7DED7;
             font-weight: 600;
             padding: 0 15px;
             margin-top: 40px;
@@ -137,12 +136,13 @@
             gap: 10px;
           }
           .contactinfo li .icon {
-            color: #6e4126;
+            color: #DA613A;
           }
           .contactinfo li .text {
-            color: #555;
+            color: #6e4126;
           }
-          .Langues {
+          .Langues
+          {
             position: relative;
             width: 100%;
             display: flex;
@@ -157,20 +157,20 @@
             grid-template-columns: 2fr 3fr;
           }
           .Langues .languesBox p {
-            color: #333;
+            color: #6e4126;
           }
           .Langues .languesBox .value {
             position: relative;
             width: 100%;
             height: 10px;
-            background: #eee;
+            background: #F7DED7;
           }
           .Langues .languesBox .value::before {
             content: "";
             position: absolute;
             width: var(--i);
             height: 100%;
-            background: #6e4126;
+            background: #DA613A;
           }
           .adjsMargin {
             margin-top: -10px;
@@ -188,134 +188,228 @@
             display: grid;
             grid-template-columns: 1fr 3fr;
           }
-          .edu_groupBx p:nth-child(1) {
+          .edu_groupBx p:nth-child(1) 
+          {
             font-weight: 500;
           }
-          .edu_groupBx b {
+          .edu_groupBx 
+           {
             font-weight: 600;
             color: #6e4126;
           }
+          .section
+           {
+            color: #6e4126;
+          }
+          .h5
+           {
+            color: #6e4126;
+          }
+          .interet
+          {
+            padding: 0 50px 50px;
+          } 
+          .interet ul
+          { 
+            display: flex;
+            margin-top: px;
+            gap: 20px;
+            justify-content: space-between;
+          }
+          .interet ul li
+          {
+            list-style: none;
+            color: #6e4126;
+            width: calc(100% / 5);
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #F7DED7;
+            text-align: center;
+            cursor: pointer;
+          }
+          .interet ul li:hover
+          {
+            background: #DA613A;
+            color: #F7DED7;
+          }
+          .interet ul li i
+          {
+            font-size: 2em;
+          }
         </style>
-        <div class="container">
-          <div class="top">
-            <h2>
-              Thanina BANOUH
-              <small
-                >recherche un stage en marketing digital et communication
-                digitale</small
-              >
-            </h2>
-            <div class="group">
-              <div class="leftSide">
-                <div class="imgbox">
-                  <img src="IMG_0946.JPG" alt="" width="300" height="350" />
-                </div>
-              </div>
-              <div class="rightSide">
-                <p>
-                  Débutante en développement web sur le point de lancer un projet de
-                  personnelbranding utilisant WordPress, HTML et CSS. Prête à créer
-                  une présentation personnelle unique, à concevoir une identité
-                  visuelle distinctive et à structurer un CV percutant. J'ai hâte de
-                  présenter mes réalisations à travers un portfolio captivant et
-                  engagée à améliorer constamment le site. Prête à commencer et à
-                  renforcer ma présence en ligne.
-                </p>
-              </div>
-            </div>
-          </div>
+    <body>
+     <div class="container">
+          <div class="top">  
+             <h2>
+                  Thanina BANOUH <small>recherche un stage en marketing digital et communication
+                  digitale</small>
+             </h2>
+             <div class="group">
+                 <div class="leftSide">
+                     <div class="imgbox">
+                          <img src="IMG_0946.JPG" alt="" width="300" height="350" />
+                        </div>
+                    </div>
+                 <div class="rightSide">
+                     <p><em>Débutante en développement web sur le point de lancer un projet de
+                     personnelbranding utilisant <strong>WordPress, HTML</strong> et <strong>CSS</strong>. Prête à créer
+                     une présentation personnelle unique, à concevoir une identité
+                     visuelle distinctive et à structurer un <strong>CV </strong> percutant. J'ai hâte de
+                     présenter mes réalisations à travers un portfolio captivant et
+                     engagée à améliorer constamment le site. Prête à commencer et à
+                     renforcer ma présence en ligne.
+                     </em></p>
+                     
+                    </div>
+             </div>
+         </div>
           <div class="bottom">
-            <div class="left_side">
-              <h4>Contact</h4>
-              <ul class="contactinfo">
-                <li>
-                  <span class="icon"><i class="fa-solid fa-phone"></i></span>
-                  <a href="tel:+33 745 314 055">+33 745 314 055</a>
-                </li>
-                <li>
-                  <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                  <a href="mailto:tbanouh@normandiewebschool.fr">tbanouh@normandiewebschool.fr</a>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
-                    <a href="https://www.linkedin.com/in/thanina-banouh-a116592a5/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B87aqLzSJQEumdV2%2Fw%2BTC%2FA%3D%3D" target="_blank" rel="noopener noreferrer">Thanina BANOUH</a>
-                  </li>
-                  <li>
-                    <span class="icon"><i class="fa-brands fa-github"></i></span>
-                    <a href="https://github.com/thaninabanouh?tab=repositories" target="_blank" rel="noopener noreferrer">thaninabanouh</a>
-                  </li>
-                <li>
-                  <span class="icon"><i class="fa-solid fa-globe"></i></span>
-                  <a href=""></a>
-                  <span class="text">www.thaninabanouh.com</span>
-                </li>
-                <li>
-                  <span class="icon"><i class="fa-solid fa-house"></i></span>
-                  <span class="text"
-                    >76250 Deville-Les-Rouen</span
-                  >
-                </li>
-                <li>
-                  <span class="icon"><i class="fa-solid fa-car"></i></span>
-                  <span class="text">Permis de conduire (categorie B)</span>
-                </li>
-              </ul>
-    
-              <h4>Langues</h4>
-              <div class="Langues">
-                <div class="languesBox" style="--i: 100%">
-                  <p>Arabe</p>
-                  <div class="value"></div>
-                </div>
-                <div class="languesBox" style="--i: 75%">
-                  <p>Francais</p>
-                  <div class="value"></div>
-                </div>
-                <div class="languesBox" style="--i: 70%">
-                  <p>Anglais</p>
-                  <div class="value"></div>
-                </div>
-                <div class="languesBox" style="--i: 100%">
-                  <p>Kabyle</p>
-                  <div class="value"></div>
-                </div>
-              </div>
-            </div>
-            <div class="right_side"></div>
-          </div>
-          <div class="right_side">
-            <h4 class="adjsMargin">Education</h4>
-            <div class="edu_group">
-              <div class="edu_groupBx">
-                <p>Rouen, France <br />2023 - A present</p>
-                <div class="value">
-                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjY4OKpy-GDAxX0BgYAHaduCJ0YABAAGgJ3cw&ase=2&gclid=CjwKCAiA75itBhA6EiwAkho9e_nj-3CMdGSo7ySKIoSw7lQxv3fNrNTnSh222PDNlCgtlM88v0QmQxoCKX4QAvD_BwE&sig=AOD64_1pMjBnb2bEM478TRkEOrD7hw-sjw&q&nis=4&adurl&ved=2ahUKEwi45Nypy-GDAxV3U6QEHRSuBkIQ0Qx6BAgMEAE" target="_blank" rel="noopener noreferrer">Normandie Web School</a>
-                  <b>Bachelor Chef de projets digitaux</b>
-                  <p>
-                    Developpement web <br />Marketing digital <br />Communication
-                    graphique <br />
-                    Communication digitale
-                  </p>
-                </div>
-                <div class="edu_groupBx">
-                  <p>2022 - 2023</p>
-                  <div class="value">
-                    <a href="https://www.ummto.dz/" target="_blank" rel="noopener noreferrer">Universite Mouloud Maameri</a>
-                    <b>Licence 1 en informatique</b>
+              <div class="left_side">
+                 <h4>Contact</h4>
+                   <ul class="contactinfo">
+                      <li>
+                          <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                         <a href="tel:+33 745 314 055">+33 745 314 055</a>
+                      </li>
+                     <li>
+                         <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                         <a href="mailto:tbanouh@normandiewebschool.fr">tbanouh@normandiewebschool.fr</a>
+                     </li>
+                     <li>
+                         <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                         <a href="https://www.linkedin.com/in/thanina-banouh-a116592a5/overlay/about-this-profile/?    lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B87aqLzSJQEumdV2%2Fw%2BTC%2FA%3D%3D" target="_blank" rel="noopener noreferrer">Thanina BANOUH</a>
+                      </li>
+                     <li>
+                          <span class="icon"><i class="fa-brands fa-github"></i></span>
+                         <a href="https://github.com/thaninabanouh?tab=repositories" target="_blank" rel="noopener noreferrer">thaninabanouh</a>
+                      </li>
+                     <li>
+                         <span class="icon"><i class="fa-solid fa-globe"></i></span>
+                         <a href=""></a>
+                         <span class="text">www.thaninabanouh.com</span>
+                     </li>
+                     <li>
+                         <span class="icon"><i class="fa-solid fa-house"></i></span>
+                         <span class="text">76250 Deville-Les-Rouen</span>
+                   
+                     </li>
+                     <li>
+                         <span class="icon"><i class="fa-solid fa-car"></i></span>
+                         <span class="text">Permis de conduire (categorie B)</span>
+                      </li>
+                 </ul>
+                 <h4>Langues</h4>
+                 <div class="Langues">
+                     <div class="languesBox" style="--i: 100%">
+                          <p>Arabe</p>
+                          <div class="value"></div>
+                      </div>
+                     <div class="languesBox" style="--i: 75%">
+                         <p>Francais</p>
+                         <div class="value"></div>
+                     </div>
+                     <div class="languesBox" style="--i: 70%">
+                          <p>Anglais</p>
+                         <div class="value"></div>
+                      </div>
+                     <div class="languesBox" style="--i: 100%">
+                         <p>Kabyle</p>
+                         <div class="value"></div>
+                     </div>
+                 </div>
+             </div>
+             <iv class="right_side">
+                  <h4 class="adjsMargin">formations</h4>
+                  <div class="edu_group">
+                     <div class="edu_groupBx">
+                          <p>Rouen, France <br /><strong>2023 - A present</strong></p>
+                         <div class="value">
+                             <strong>
+                             <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjY4OKpy-GDAxX0BgYAHaduCJ0YABAAGgJ3cw&ase=2& gclid=CjwKCAiA75itBhA6EiwAkho9e_nj-3CMdGSo7ySKIoSw7lQxv3fNrNTnSh222PDNlCgtlM88v0QmQxoCKX4QAvD_BwE&sig=AOD64_1pMjBnb2bEM478TRkEOrD7hw-sjw&q&nis=4&adurl&ved=2ahUKEwi45Nypy-GDAxV3U6QEHRSuBkIQ0Qx6BAgMEAE" target="_blank"  rel="noopener noreferrer"><span>Normandie Web School </span></a>
+                             </strong> 
+                             <br>
+                             <p><strong>Bachelor Chef de projets digitaux </strong></p>
+                             <h5>
+                                 <ul>
+                                     <li>Developpement web</li>
+                                     <li>Marketing digital </li>
+                                     <li>Communication graphique</li>
+                                     <li>Communication digitale</li>
+                                 </ul>
+                             </h5>
+                         </div>
+                      </div>
+                     <div class="edu_groupBx">
+                          <p>Tizi-Ouzou, Algerie <br><strong> 2022 - 2023</strong></p>
+                         <div class="value"><strong>
+                              <a href="https://www.ummto.dz/" target="_blank" rel="noopener noreferrer">Universite Mouloud Maameri</a></strong>
+                             <p><strong>Licence 1 en informatique</strong></p>
+                          </div>
+                       </div>
+                      <div class="edu_groupBx">
+                          <p>Tizi-Ouzou, Algerie <br><strong> 2021 - 2022</strong></p>
+                         <div class="value"><strong>
+                              <a href="https://www.facebook.com/people/Lyc%C3%A9e-Fatma-Nsoumer-Tizi-Ouzou-Alg%C3%A9rie/100027974695164/" target="_blank" rel="noopener noreferrer">Lycee Fatma N'Soumer</a></strong>
+                             <p><strong></strong></p>Baccalaureat , Scientifique   
+                         </div> 
+                      </div>
                   </div>
-                </div>
-                <div class="edu_groupBx">
-                  <p>2021 - 2022</p>
-                  <div class="value">
-                    <b>Lycee Fatma N'Soumer</b>
-                    <b>Baccalaureat , Scientifique</b>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </body>
-    </html>
+                 <h4 class="adjsMargin">Experiences</h4> <b></b>
+                 <div class="edu_groupBx"><b></b><br>
+                     <p>Strasbourg, France <br><strong>2023</strong></p>
+                     <div class="value"><strong>
+                         <a href="https://www.shopopop.com/" target="_blank" rel="noopener noreferrer">Shopopop</a></strong>
+                         <p><strong>Livreuse pour Shopopop</strong></p>
+                      </div>
+                  </div><br>
+                 <div class="edu_groupBx">
+                     <p>Oran, Algeria <br><strong>2017-2019</strong></p>
+                      <div class="value">
+                         <a href="https://www.facebook.com/p/CEM-Tandjaoui-100064311504703/" target="_blank" rel="noopener noreferrer"><strong>Cours de Dessin</strong></a> 
+                         <p>
+                            <strong>
+                         <ul>
+                             <li>Les bases du dessin</li>
+                             <li>Étude des proportions</li>
+                             <li>Couleur et mélange</li>
+                         </ul>
+                            </strong>
+                          </p>
+                     </div>
+                 </div><br>
+                 <h4 class="adjsMargin">Competences</h4>
+                     <h><ul><br>
+                        <li>Apprentissage Rapide des Outils</li>
+                        <li>Illustration et Dessin
+                        </li>
+                        <li>Photographie et Retouche</li>
+                        <li>Gestion des Réseaux Sociaux
+                        </li>
+                        <li>Création de Contenu Visuel (Canva)
+                        </li>
+                     </ul>
+                    </h>
+             </div>
+                 <div class="interet">
+                     <h4 class="adjsMargin">Centre d'interet</h4> 
+                     <p><br>
+                         <ul>
+                             <li><i class="fa-solid fa-camera-retro"></i>
+                             Photographie</li>
+                             <li><i class="fa-solid fa-gamepad"></i>
+                             gaming</li>
+                             <li><i class="fa-solid fa-video"></i>
+                             montage video</li>
+                             <li><i class="fa-solid fa-pen"></i>
+                             Dessin</li>
+                         </ul>
+                      </p>
+                 </div>
+         </div>
+     </div>     
+ </body> 
+</html>
 
     
