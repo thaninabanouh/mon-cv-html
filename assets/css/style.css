@@ -1,12 +1,9 @@
 html {
   color-scheme: light dark;
 }
-@media (prefers-colors-scheme : light) {
-  :root{
-    
-  }
+
   
-}  
+
 body 
 * {
     margin: 0;
