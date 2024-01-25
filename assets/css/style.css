@@ -26,7 +26,7 @@ body
     min-height: 1000px;
     background: #fff;
     margin: 50px;
-    box-shadow: 0 35px 55px rgb(77, 8, 8);
+    box-shadow: 0 5px 55px rgb(180, 90, 90);
   }
   .top {
     position: relative;
@@ -129,7 +129,7 @@ body
     grid-template-columns: 2fr 3fr;
   }
  img {
-  margin-left: 50px;
+  margin-left: 20px;
  }
   ul
   {
@@ -182,9 +182,13 @@ body
   .interet ul
   { 
     display: flex;
-    margin-top: 30px;
+    margin-top: 5px;
     gap: 20px;
     justify-content: space-between;
+  }
+  ul{
+    position: relative;
+    
   }
   .interet ul li
   {
