@@ -38,14 +38,19 @@ body {
   margin-inline-end: auto;
 }
 
-h2 {
-  font-size: 5px;
+h1 {
+  font-size: 2em;
   color: #7f341c;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-
-h2 small {
+h2 {
+  font-size: 1em;
+  color: #7f341c;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1 small {
   display: block;
   font-size: 0.4em;
   font-weight: 300;
